@@ -2,6 +2,7 @@ import React from 'react'
 import { useState , useEffect } from 'react';
 import './Navbar.css'
 import {Link} from 'react-router-dom'
+import logo from '../../assets/logo.jpg'
 
 const Navbar = () => {
   // const navigate = useNavigate();
@@ -33,7 +34,7 @@ const Navbar = () => {
                       <a onClick={() => setShowNavbar(!showNavbar)}>GAMES</a>
                   </li>
                   <li>
-                      <a onClick={() => setShowNavbar(!showNavbar)}>--LOGO--</a>
+                      <img onClick={() => setShowNavbar(!showNavbar)} src={logo}></img>
                   </li>
                   <li>
                       <a  onClick={() => setShowNavbar(!showNavbar)}>EVENTS</a>
