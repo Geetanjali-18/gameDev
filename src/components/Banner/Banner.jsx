@@ -6,6 +6,10 @@ const Banner = () => {
       <div className='hero-section'>
         <div className='hero-content'>SHADOW WORLD <br/> LEGENDS REALM</div>
         <div className='hero-content2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto<br/> odit suscipit odio voluptatibus beatae impedit,dignissimos provident? </div>
+        <div>
+          <button className='btn'>JOIN US DEVLOPER</button>
+          <button className='btn'>JOIN US GAMER</button>
+        </div>
       </div>
     </>
   )
