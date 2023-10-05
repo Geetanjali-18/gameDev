@@ -10,8 +10,7 @@ const Card = (props) => {
             <div className={styles.info}>
                 <p className={styles.title}>{props.title}</p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                    mollitia, molestiae quas vel sint commodi.{" "}
+                    {props.details}.{" "}
                 </p>
             </div>
             <div className={styles.footer}>
